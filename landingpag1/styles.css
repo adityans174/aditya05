@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url("aadi4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    background: rgb(12, 1, 75);
+    color: #f3083b;
+    padding: 10px 0;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.nav-links:hover {
+    list-style: none;
+
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color:rgb(236, 247, 250);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.home-section {
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home-section .cta-button {
+    background: #e5a13d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+.home-content{
+    text-align: center;
+}
+.yellow{
+    color: rgb(253, 7, 27);
+}
+
+.about-section, .products-section, .contact-section {
+    padding: 40px 20px;
+    text-align: center;
+    color: rgb(73, 8, 11);
+    top: 0%;
+    font-size: 1.3rem;
+    margin-left: 50%;
+    color: rgb(2, 26, 29);
+    margin-top: 50;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    
+
+}
+.left{
+    font-size: 1.5rem;
+}
+.Firstsection div{
+    width: 30%;
+}
+.Firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+}
+.leftsection{
+    font-size: 1.7rem;
+    margin: 50px;
+    margin-right: 40%;
+    color: rgb(24, 0, 4);
+}
+nav a:hover{
+    color: rgb(22, 223, 230);
+    font-size: 1.5em;
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    forced-color-adjust: rgb(43, 2, 36);
+}
+.rightsection a:hover{
+    color: #0b0379;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rightsection{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    top: 0%;
+    font-size: 1.2rem;
+    color: rgb(2, 26, 29);
+    margin-top: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   margin-left: 20px;
+}
+h3{
+    color: white;
+    font-size: 1.30rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3:hover{
+    color: #0d0397;
+}
+
+ .img1 ,img {
+        display: flex;
+        margin: 20px;
+        padding: 10px;
+        gap: 3px;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+
+    }
+    h2{
+        color: rgb(13, 14, 13);
+        font-size: 1.25rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+    .java{
+        color: #850791;
+    }
+
+
+
+
+.border {
+    padding: 20px;
+    margin: 30px;
+    display: inline-block;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    font-weight: 250;
+    column-gap: 40px;
+    font: 2 rem sans-serif;
+    margin-top: 0%;
+    margin-right: 0%;
+    
+    
+}
+.resize{
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.image1{
+    border: 3px solid transparent;
+
+}
+.image1:hover{
+    color: rgb(19, 7, 187);
+    border: 3px solid rgb(41, 3, 25);
+}
+.image2{
+    border: 3px solid transparent;
+}
+.image2:hover{
+    color: rgb(38, 12, 185);
+    border: 3px solid rgb(250, 5, 67);
+}
+.socialmedia-icon {
+
+    gap: 15px;
+    display: flex;
+    
+}
+.content{
+    color: whitesmoke;
+    font-family: cursive;
+    font: 1em sans-serif;
+}
+.content:hover{
+    color: #eb5486;
+    font-family: calc();
+}
+
+
+
+
+.product-card1{
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    font-weight: 250;
+    
+
+
+}
+.product-card1 img{
+    max-width: 100%;
+    border-radius: 5px;
+    height: 300;
+    width: 250;
+    color: rgb(65, 10, 44);
+
+
+
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 5px;
+    height: 300;
+    width: 250;
+    color: rgb(68, 83, 214);
+}
+
+footer {
+    background: #350029;
+    color: #f3eff2;
+    text-align: center;
+    padding: 20px 0;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo{
+    color: white;
+    box-sizing: border-box;
+    border-color: #0a054d;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.products-section{
+    display: flex;
+}
+.input{
+    color: #240221;
+    text-align: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-right: 5px;
+}
